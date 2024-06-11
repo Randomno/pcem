@@ -1,0 +1,783 @@
+pcem-wx-resources.o: wx-resources.cpp \
+ C:/msys64/mingw32/include/wx-3.2/wx/wxprec.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/defs.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/platform.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/compiler.h \
+ C:/msys64/mingw32/lib/wx/include/msw-unicode-3.2/wx/setup.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/libraries.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/gccpriv.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/winver.h \
+ C:/msys64/mingw32/include/_mingw.h \
+ C:/msys64/mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw32/include/w32api.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/chkconf.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/chkconf.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/version.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/cpp.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/dlimpexp.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/include/corecrt.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/types.h \
+ C:/msys64/mingw32/include/sys/types.h \
+ C:/msys64/mingw32/include/_mingw_off_t.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/debug.h \
+ C:/msys64/mingw32/include/assert.h \
+ C:/msys64/mingw32/include/c++/14.1.0/stdlib.h \
+ C:/msys64/mingw32/include/c++/14.1.0/cstdlib \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++config.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/os_defines.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/mingw32/include/c++/14.1.0/pstl/pstl_config.h \
+ C:/msys64/mingw32/include/stdlib.h \
+ C:/msys64/mingw32/include/corecrt_wstdlib.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h \
+ C:/msys64/mingw32/include/limits.h \
+ C:/msys64/mingw32/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw32/include/malloc.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h \
+ C:/msys64/mingw32/include/errno.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/std_abs.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/chartype.h \
+ C:/msys64/mingw32/include/wchar.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
+ C:/msys64/mingw32/include/_mingw_stat64.h \
+ C:/msys64/mingw32/include/swprintf.inl \
+ C:/msys64/mingw32/include/sec_api/wchar_s.h \
+ C:/msys64/mingw32/include/string.h \
+ C:/msys64/mingw32/include/sec_api/string_s.h \
+ C:/msys64/mingw32/include/ctype.h C:/msys64/mingw32/include/tchar.h \
+ C:/msys64/mingw32/include/sec_api/tchar_s.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/features.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/filesys.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/stream.h \
+ C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/sec_api/stdio_s.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/object.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/memory.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/string.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdarg.h \
+ C:/msys64/mingw32/include/stdarg.h \
+ C:/msys64/mingw32/include/_mingw_stdarg.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/wxcrtbase.h \
+ C:/msys64/mingw32/include/wctype.h C:/msys64/mingw32/include/time.h \
+ C:/msys64/mingw32/include/sys/timeb.h \
+ C:/msys64/mingw32/include/sec_api/sys/timeb_s.h \
+ C:/msys64/mingw32/include/_timeval.h \
+ C:/msys64/mingw32/include/pthread_time.h C:/msys64/mingw32/include/io.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/strvararg.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/strconv.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/buffer.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/fontenc.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/unichar.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/stringimpl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/beforestd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/string \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/requires_hosted.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stringfwd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/memoryfwd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/char_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/postypes.h \
+ C:/msys64/mingw32/include/c++/14.1.0/cwchar \
+ C:/msys64/mingw32/include/c++/14.1.0/type_traits \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/version.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/allocator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++allocator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/new_allocator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/new \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/exception.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/functexcept.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/exception_defines.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/move.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/cpp_type_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/localefwd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++locale.h \
+ C:/msys64/mingw32/include/c++/14.1.0/clocale \
+ C:/msys64/mingw32/include/locale.h \
+ C:/msys64/mingw32/include/c++/14.1.0/iosfwd \
+ C:/msys64/mingw32/include/c++/14.1.0/cctype \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/ostream_insert.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/cxxabi_forced.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/concept_check.h \
+ C:/msys64/mingw32/include/c++/14.1.0/debug/assertions.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator_base_types.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/type_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/ptr_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_function.h \
+ C:/msys64/mingw32/include/c++/14.1.0/backward/binders.h \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/numeric_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_algobase.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_pair.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/utility.h \
+ C:/msys64/mingw32/include/c++/14.1.0/debug/debug.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/predefined_ops.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bit \
+ C:/msys64/mingw32/include/c++/14.1.0/concepts \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/refwrap.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/invoke.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/range_access.h \
+ C:/msys64/mingw32/include/c++/14.1.0/initializer_list \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/basic_string.h \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/alloc_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/alloc_traits.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_construct.h \
+ C:/msys64/mingw32/include/c++/14.1.0/string_view \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/functional_hash.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/hash_bytes.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/string_view.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/string_conversions.h \
+ C:/msys64/mingw32/include/c++/14.1.0/cstdio \
+ C:/msys64/mingw32/include/c++/14.1.0/cerrno \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/charconv.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/basic_string.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/memory_resource.h \
+ C:/msys64/mingw32/include/c++/14.1.0/cstddef \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/uses_allocator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/uses_allocator_args.h \
+ C:/msys64/mingw32/include/c++/14.1.0/tuple \
+ C:/msys64/mingw32/include/wx-3.2/wx/afterstd.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/winundef.h \
+ C:/msys64/mingw32/include/c++/14.1.0/algorithm \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_algo.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/algorithmfwd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_heap.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/uniform_int_dist.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_tempbuf.h \
+ C:/msys64/mingw32/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/mingw32/include/c++/14.1.0/pstl/execution_defs.h \
+ C:/msys64/mingw32/include/c++/14.1.0/utility \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_relops.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/stringops.h \
+ C:/msys64/mingw32/include/c++/14.1.0/functional \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/std_function.h \
+ C:/msys64/mingw32/include/c++/14.1.0/typeinfo \
+ C:/msys64/mingw32/include/c++/14.1.0/unordered_map \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/unordered_map.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/hashtable.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/hashtable_policy.h \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/aligned_buffer.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/enable_special_members.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/node_handle.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/erase_if.h \
+ C:/msys64/mingw32/include/c++/14.1.0/vector \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_uninitialized.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_vector.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_bvector.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/vector.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/array \
+ C:/msys64/mingw32/include/c++/14.1.0/compare \
+ C:/msys64/mingw32/include/wx-3.2/wx/iosfwrap.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msgout.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xti.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/rtti.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/flags.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xti2.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/filefn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/list.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/vector.h \
+ C:/msys64/mingw32/include/c++/14.1.0/iterator \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stream_iterator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/streambuf_iterator.h \
+ C:/msys64/mingw32/include/c++/14.1.0/streambuf \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/ios_base.h \
+ C:/msys64/mingw32/include/c++/14.1.0/ext/atomicity.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/gthr.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/gthr-default.h \
+ C:/msys64/mingw32/include/pthread.h C:/msys64/mingw32/include/process.h \
+ C:/msys64/mingw32/include/corecrt_startup.h \
+ C:/msys64/mingw32/include/signal.h \
+ C:/msys64/mingw32/include/pthread_signal.h \
+ C:/msys64/mingw32/include/pthread_compat.h \
+ C:/msys64/mingw32/include/pthread_unistd.h \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/atomic_word.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/locale_classes.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/locale_classes.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/system_error \
+ C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/error_constants.h \
+ C:/msys64/mingw32/include/c++/14.1.0/stdexcept \
+ C:/msys64/mingw32/include/c++/14.1.0/exception \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/exception_ptr.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/cxxabi_init_exception.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/nested_exception.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/streambuf.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/list \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/stl_list.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/allocated_ptr.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/list.tcc \
+ C:/msys64/mingw32/include/wx-3.2/wx/arrstr.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/dynarray.h \
+ C:/msys64/mingw32/include/sys/stat.h C:/msys64/mingw32/include/fcntl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/datetime.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/longlong.h \
+ C:/msys64/mingw32/include/c++/14.1.0/limits \
+ C:/msys64/mingw32/include/wx-3.2/wx/anystr.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/filename.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/intl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/localedefs.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/translation.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/language.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/hashmap.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/wxcrt.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/scopedptr.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/checkeddelete.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/file.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/convauto.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/fs_mem.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/bitmap.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/gdicmn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/math.h \
+ C:/msys64/mingw32/include/c++/14.1.0/math.h \
+ C:/msys64/mingw32/include/c++/14.1.0/cmath \
+ C:/msys64/mingw32/include/math.h \
+ C:/msys64/mingw32/include/c++/14.1.0/bits/specfun.h \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/gamma.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/special_function_util.h \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/bessel_function.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/beta_function.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/ell_integral.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/exp_integral.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/hypergeometric.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/legendre_function.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/modified_bessel_func.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/poly_hermite.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/poly_laguerre.tcc \
+ C:/msys64/mingw32/include/c++/14.1.0/tr1/riemann_zeta.tcc \
+ C:/msys64/mingw32/include/wx-3.2/wx/colour.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/gdiobj.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/variant.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/any.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/meta/if.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/typeinfo.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/colour.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/image.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagbmp.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagpng.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/versioninfo.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imaggif.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagpcx.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagjpeg.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagtga.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagtiff.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagpnm.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagxpm.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imagiff.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/bitmap.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/gdiimage.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/palette.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/palette.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xmlres.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/icon.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/iconloc.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/icon.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/artprov.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/iconbndl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/bmpbndl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xmlreshandler.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/imaglist.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/imaglist.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/window.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/event.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/clntdata.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/cursor.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/cursor.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/utils.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/meta/implicitconversion.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/mousestate.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/kbdstate.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/platinfo.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/thread.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/tracker.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/meta/convertible.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/meta/removeref.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/font.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/font.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/region.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/region.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/validate.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/windowid.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/accel.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/accel.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/access.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/ole/access.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/window.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/settings.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_all.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_activityindicator.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_animatctrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bannerwindow.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmp.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmpbt.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/bmpbuttn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/button.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/anybutton.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/control.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/control.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/anybutton.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/button.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/bmpbuttn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/brush.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/brush.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmpcbox.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bttn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_cald.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_chckb.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_chckl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_choic.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_choicbk.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bookctrlbase.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_clrpicker.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_cmdlinkbn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_collpane.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_combo.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_comboctrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dataview.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_datectrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dirpicker.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dlg.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_editlbox.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_filectrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_filepicker.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_fontpicker.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_frame.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_gauge.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_gdctl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_grid.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_html.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_htmllbox.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_hyperlink.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_infobar.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listb.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listc.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listbk.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_mdi.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_menu.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_notbk.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_odcombo.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_panel.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_propdlg.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_radbt.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_radbx.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_scrol.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_scwin.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_simplebook.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_sizer.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/sizer.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/gbsizer.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_slidr.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_spin.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_split.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_srchctrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_statbar.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stbox.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stbmp.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_sttxt.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stlin.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_text.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_tglbtn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_timectrl.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_toolb.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_toolbk.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_tree.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_treebk.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_unkwn.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_wizrd.h
+C:/msys64/mingw32/include/wx-3.2/wx/wxprec.h:
+C:/msys64/mingw32/include/wx-3.2/wx/defs.h:
+C:/msys64/mingw32/include/wx-3.2/wx/platform.h:
+C:/msys64/mingw32/include/wx-3.2/wx/compiler.h:
+C:/msys64/mingw32/lib/wx/include/msw-unicode-3.2/wx/setup.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/libraries.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/gccpriv.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/winver.h:
+C:/msys64/mingw32/include/_mingw.h:
+C:/msys64/mingw32/include/_mingw_mac.h:
+C:/msys64/mingw32/include/_mingw_secapi.h:
+C:/msys64/mingw32/include/vadefs.h:
+C:/msys64/mingw32/include/sdks/_mingw_ddk.h:
+C:/msys64/mingw32/include/w32api.h:
+C:/msys64/mingw32/include/wx-3.2/wx/chkconf.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/chkconf.h:
+C:/msys64/mingw32/include/wx-3.2/wx/version.h:
+C:/msys64/mingw32/include/wx-3.2/wx/cpp.h:
+C:/msys64/mingw32/include/wx-3.2/wx/dlimpexp.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h:
+C:/msys64/mingw32/include/stddef.h:
+C:/msys64/mingw32/include/crtdefs.h:
+C:/msys64/mingw32/include/corecrt.h:
+C:/msys64/mingw32/include/wx-3.2/wx/types.h:
+C:/msys64/mingw32/include/sys/types.h:
+C:/msys64/mingw32/include/_mingw_off_t.h:
+C:/msys64/mingw32/include/wx-3.2/wx/debug.h:
+C:/msys64/mingw32/include/assert.h:
+C:/msys64/mingw32/include/c++/14.1.0/stdlib.h:
+C:/msys64/mingw32/include/c++/14.1.0/cstdlib:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++config.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/os_defines.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/cpu_defines.h:
+C:/msys64/mingw32/include/c++/14.1.0/pstl/pstl_config.h:
+C:/msys64/mingw32/include/stdlib.h:
+C:/msys64/mingw32/include/corecrt_wstdlib.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h:
+C:/msys64/mingw32/include/limits.h:
+C:/msys64/mingw32/include/sec_api/stdlib_s.h:
+C:/msys64/mingw32/include/malloc.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h:
+C:/msys64/mingw32/include/errno.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/std_abs.h:
+C:/msys64/mingw32/include/wx-3.2/wx/chartype.h:
+C:/msys64/mingw32/include/wchar.h:
+C:/msys64/mingw32/include/corecrt_stdio_config.h:
+C:/msys64/mingw32/include/_mingw_stat64.h:
+C:/msys64/mingw32/include/swprintf.inl:
+C:/msys64/mingw32/include/sec_api/wchar_s.h:
+C:/msys64/mingw32/include/string.h:
+C:/msys64/mingw32/include/sec_api/string_s.h:
+C:/msys64/mingw32/include/ctype.h:
+C:/msys64/mingw32/include/tchar.h:
+C:/msys64/mingw32/include/sec_api/tchar_s.h:
+C:/msys64/mingw32/include/wx-3.2/wx/features.h:
+C:/msys64/mingw32/include/wx-3.2/wx/filesys.h:
+C:/msys64/mingw32/include/wx-3.2/wx/stream.h:
+C:/msys64/mingw32/include/stdio.h:
+C:/msys64/mingw32/include/sec_api/stdio_s.h:
+C:/msys64/mingw32/include/wx-3.2/wx/object.h:
+C:/msys64/mingw32/include/wx-3.2/wx/memory.h:
+C:/msys64/mingw32/include/wx-3.2/wx/string.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdarg.h:
+C:/msys64/mingw32/include/stdarg.h:
+C:/msys64/mingw32/include/_mingw_stdarg.h:
+C:/msys64/mingw32/include/wx-3.2/wx/wxcrtbase.h:
+C:/msys64/mingw32/include/wctype.h:
+C:/msys64/mingw32/include/time.h:
+C:/msys64/mingw32/include/sys/timeb.h:
+C:/msys64/mingw32/include/sec_api/sys/timeb_s.h:
+C:/msys64/mingw32/include/_timeval.h:
+C:/msys64/mingw32/include/pthread_time.h:
+C:/msys64/mingw32/include/io.h:
+C:/msys64/mingw32/include/wx-3.2/wx/strvararg.h:
+C:/msys64/mingw32/include/wx-3.2/wx/strconv.h:
+C:/msys64/mingw32/include/wx-3.2/wx/buffer.h:
+C:/msys64/mingw32/include/wx-3.2/wx/fontenc.h:
+C:/msys64/mingw32/include/wx-3.2/wx/unichar.h:
+C:/msys64/mingw32/include/wx-3.2/wx/stringimpl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/beforestd.h:
+C:/msys64/mingw32/include/c++/14.1.0/string:
+C:/msys64/mingw32/include/c++/14.1.0/bits/requires_hosted.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stringfwd.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/memoryfwd.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/char_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/postypes.h:
+C:/msys64/mingw32/include/c++/14.1.0/cwchar:
+C:/msys64/mingw32/include/c++/14.1.0/type_traits:
+C:/msys64/mingw32/include/c++/14.1.0/bits/version.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/allocator.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++allocator.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/new_allocator.h:
+C:/msys64/mingw32/include/c++/14.1.0/new:
+C:/msys64/mingw32/include/c++/14.1.0/bits/exception.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/functexcept.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/exception_defines.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/move.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/cpp_type_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/localefwd.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/c++locale.h:
+C:/msys64/mingw32/include/c++/14.1.0/clocale:
+C:/msys64/mingw32/include/locale.h:
+C:/msys64/mingw32/include/c++/14.1.0/iosfwd:
+C:/msys64/mingw32/include/c++/14.1.0/cctype:
+C:/msys64/mingw32/include/c++/14.1.0/bits/ostream_insert.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/cxxabi_forced.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator_base_funcs.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/concept_check.h:
+C:/msys64/mingw32/include/c++/14.1.0/debug/assertions.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator_base_types.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_iterator.h:
+C:/msys64/mingw32/include/c++/14.1.0/ext/type_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/ptr_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_function.h:
+C:/msys64/mingw32/include/c++/14.1.0/backward/binders.h:
+C:/msys64/mingw32/include/c++/14.1.0/ext/numeric_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_algobase.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_pair.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/utility.h:
+C:/msys64/mingw32/include/c++/14.1.0/debug/debug.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/predefined_ops.h:
+C:/msys64/mingw32/include/c++/14.1.0/bit:
+C:/msys64/mingw32/include/c++/14.1.0/concepts:
+C:/msys64/mingw32/include/c++/14.1.0/bits/refwrap.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/invoke.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/range_access.h:
+C:/msys64/mingw32/include/c++/14.1.0/initializer_list:
+C:/msys64/mingw32/include/c++/14.1.0/bits/basic_string.h:
+C:/msys64/mingw32/include/c++/14.1.0/ext/alloc_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/alloc_traits.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_construct.h:
+C:/msys64/mingw32/include/c++/14.1.0/string_view:
+C:/msys64/mingw32/include/c++/14.1.0/bits/functional_hash.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/hash_bytes.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/string_view.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/ext/string_conversions.h:
+C:/msys64/mingw32/include/c++/14.1.0/cstdio:
+C:/msys64/mingw32/include/c++/14.1.0/cerrno:
+C:/msys64/mingw32/include/c++/14.1.0/bits/charconv.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/basic_string.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/bits/memory_resource.h:
+C:/msys64/mingw32/include/c++/14.1.0/cstddef:
+C:/msys64/mingw32/include/c++/14.1.0/bits/uses_allocator.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/uses_allocator_args.h:
+C:/msys64/mingw32/include/c++/14.1.0/tuple:
+C:/msys64/mingw32/include/wx-3.2/wx/afterstd.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/winundef.h:
+C:/msys64/mingw32/include/c++/14.1.0/algorithm:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_algo.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/algorithmfwd.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_heap.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/uniform_int_dist.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_tempbuf.h:
+C:/msys64/mingw32/include/c++/14.1.0/pstl/glue_algorithm_defs.h:
+C:/msys64/mingw32/include/c++/14.1.0/pstl/execution_defs.h:
+C:/msys64/mingw32/include/c++/14.1.0/utility:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_relops.h:
+C:/msys64/mingw32/include/wx-3.2/wx/stringops.h:
+C:/msys64/mingw32/include/c++/14.1.0/functional:
+C:/msys64/mingw32/include/c++/14.1.0/bits/std_function.h:
+C:/msys64/mingw32/include/c++/14.1.0/typeinfo:
+C:/msys64/mingw32/include/c++/14.1.0/unordered_map:
+C:/msys64/mingw32/include/c++/14.1.0/bits/unordered_map.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/hashtable.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/hashtable_policy.h:
+C:/msys64/mingw32/include/c++/14.1.0/ext/aligned_buffer.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/enable_special_members.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/node_handle.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/erase_if.h:
+C:/msys64/mingw32/include/c++/14.1.0/vector:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_uninitialized.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_vector.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_bvector.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/vector.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/array:
+C:/msys64/mingw32/include/c++/14.1.0/compare:
+C:/msys64/mingw32/include/wx-3.2/wx/iosfwrap.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msgout.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xti.h:
+C:/msys64/mingw32/include/wx-3.2/wx/rtti.h:
+C:/msys64/mingw32/include/wx-3.2/wx/flags.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xti2.h:
+C:/msys64/mingw32/include/wx-3.2/wx/filefn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/list.h:
+C:/msys64/mingw32/include/wx-3.2/wx/vector.h:
+C:/msys64/mingw32/include/c++/14.1.0/iterator:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stream_iterator.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/streambuf_iterator.h:
+C:/msys64/mingw32/include/c++/14.1.0/streambuf:
+C:/msys64/mingw32/include/c++/14.1.0/bits/ios_base.h:
+C:/msys64/mingw32/include/c++/14.1.0/ext/atomicity.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/gthr.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/gthr-default.h:
+C:/msys64/mingw32/include/pthread.h:
+C:/msys64/mingw32/include/process.h:
+C:/msys64/mingw32/include/corecrt_startup.h:
+C:/msys64/mingw32/include/signal.h:
+C:/msys64/mingw32/include/pthread_signal.h:
+C:/msys64/mingw32/include/pthread_compat.h:
+C:/msys64/mingw32/include/pthread_unistd.h:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/atomic_word.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/locale_classes.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/locale_classes.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/system_error:
+C:/msys64/mingw32/include/c++/14.1.0/i686-w64-mingw32/bits/error_constants.h:
+C:/msys64/mingw32/include/c++/14.1.0/stdexcept:
+C:/msys64/mingw32/include/c++/14.1.0/exception:
+C:/msys64/mingw32/include/c++/14.1.0/bits/exception_ptr.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/cxxabi_init_exception.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/nested_exception.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/streambuf.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/list:
+C:/msys64/mingw32/include/c++/14.1.0/bits/stl_list.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/allocated_ptr.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/list.tcc:
+C:/msys64/mingw32/include/wx-3.2/wx/arrstr.h:
+C:/msys64/mingw32/include/wx-3.2/wx/dynarray.h:
+C:/msys64/mingw32/include/sys/stat.h:
+C:/msys64/mingw32/include/fcntl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/datetime.h:
+C:/msys64/mingw32/include/wx-3.2/wx/longlong.h:
+C:/msys64/mingw32/include/c++/14.1.0/limits:
+C:/msys64/mingw32/include/wx-3.2/wx/anystr.h:
+C:/msys64/mingw32/include/wx-3.2/wx/filename.h:
+C:/msys64/mingw32/include/wx-3.2/wx/intl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/localedefs.h:
+C:/msys64/mingw32/include/wx-3.2/wx/translation.h:
+C:/msys64/mingw32/include/wx-3.2/wx/language.h:
+C:/msys64/mingw32/include/wx-3.2/wx/hashmap.h:
+C:/msys64/mingw32/include/wx-3.2/wx/wxcrt.h:
+C:/msys64/mingw32/include/wx-3.2/wx/scopedptr.h:
+C:/msys64/mingw32/include/wx-3.2/wx/checkeddelete.h:
+C:/msys64/mingw32/include/wx-3.2/wx/file.h:
+C:/msys64/mingw32/include/wx-3.2/wx/convauto.h:
+C:/msys64/mingw32/include/wx-3.2/wx/fs_mem.h:
+C:/msys64/mingw32/include/wx-3.2/wx/bitmap.h:
+C:/msys64/mingw32/include/wx-3.2/wx/gdicmn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/math.h:
+C:/msys64/mingw32/include/c++/14.1.0/math.h:
+C:/msys64/mingw32/include/c++/14.1.0/cmath:
+C:/msys64/mingw32/include/math.h:
+C:/msys64/mingw32/include/c++/14.1.0/bits/specfun.h:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/gamma.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/special_function_util.h:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/bessel_function.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/beta_function.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/ell_integral.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/exp_integral.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/hypergeometric.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/legendre_function.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/modified_bessel_func.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/poly_hermite.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/poly_laguerre.tcc:
+C:/msys64/mingw32/include/c++/14.1.0/tr1/riemann_zeta.tcc:
+C:/msys64/mingw32/include/wx-3.2/wx/colour.h:
+C:/msys64/mingw32/include/wx-3.2/wx/gdiobj.h:
+C:/msys64/mingw32/include/wx-3.2/wx/variant.h:
+C:/msys64/mingw32/include/wx-3.2/wx/any.h:
+C:/msys64/mingw32/include/wx-3.2/wx/meta/if.h:
+C:/msys64/mingw32/include/wx-3.2/wx/typeinfo.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/colour.h:
+C:/msys64/mingw32/include/wx-3.2/wx/image.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagbmp.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagpng.h:
+C:/msys64/mingw32/include/wx-3.2/wx/versioninfo.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imaggif.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagpcx.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagjpeg.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagtga.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagtiff.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagpnm.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagxpm.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imagiff.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/bitmap.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/gdiimage.h:
+C:/msys64/mingw32/include/wx-3.2/wx/palette.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/palette.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xmlres.h:
+C:/msys64/mingw32/include/wx-3.2/wx/icon.h:
+C:/msys64/mingw32/include/wx-3.2/wx/iconloc.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/icon.h:
+C:/msys64/mingw32/include/wx-3.2/wx/artprov.h:
+C:/msys64/mingw32/include/wx-3.2/wx/iconbndl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/bmpbndl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xmlreshandler.h:
+C:/msys64/mingw32/include/wx-3.2/wx/imaglist.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/imaglist.h:
+C:/msys64/mingw32/include/wx-3.2/wx/window.h:
+C:/msys64/mingw32/include/wx-3.2/wx/event.h:
+C:/msys64/mingw32/include/wx-3.2/wx/clntdata.h:
+C:/msys64/mingw32/include/wx-3.2/wx/cursor.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/cursor.h:
+C:/msys64/mingw32/include/wx-3.2/wx/utils.h:
+C:/msys64/mingw32/include/wx-3.2/wx/meta/implicitconversion.h:
+C:/msys64/mingw32/include/wx-3.2/wx/mousestate.h:
+C:/msys64/mingw32/include/wx-3.2/wx/kbdstate.h:
+C:/msys64/mingw32/include/wx-3.2/wx/platinfo.h:
+C:/msys64/mingw32/include/wx-3.2/wx/thread.h:
+C:/msys64/mingw32/include/wx-3.2/wx/tracker.h:
+C:/msys64/mingw32/include/wx-3.2/wx/meta/convertible.h:
+C:/msys64/mingw32/include/wx-3.2/wx/meta/removeref.h:
+C:/msys64/mingw32/include/wx-3.2/wx/font.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/font.h:
+C:/msys64/mingw32/include/wx-3.2/wx/region.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/region.h:
+C:/msys64/mingw32/include/wx-3.2/wx/validate.h:
+C:/msys64/mingw32/include/wx-3.2/wx/windowid.h:
+C:/msys64/mingw32/include/wx-3.2/wx/accel.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/accel.h:
+C:/msys64/mingw32/include/wx-3.2/wx/access.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/ole/access.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/window.h:
+C:/msys64/mingw32/include/wx-3.2/wx/settings.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_all.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_activityindicator.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_animatctrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bannerwindow.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmp.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmpbt.h:
+C:/msys64/mingw32/include/wx-3.2/wx/bmpbuttn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/button.h:
+C:/msys64/mingw32/include/wx-3.2/wx/anybutton.h:
+C:/msys64/mingw32/include/wx-3.2/wx/control.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/control.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/anybutton.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/button.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/bmpbuttn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/brush.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/brush.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bmpcbox.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bttn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_cald.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_chckb.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_chckl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_choic.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_choicbk.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_bookctrlbase.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_clrpicker.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_cmdlinkbn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_collpane.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_combo.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_comboctrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dataview.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_datectrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dirpicker.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_dlg.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_editlbox.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_filectrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_filepicker.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_fontpicker.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_frame.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_gauge.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_gdctl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_grid.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_html.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_htmllbox.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_hyperlink.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_infobar.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listb.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listc.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_listbk.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_mdi.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_menu.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_notbk.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_odcombo.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_panel.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_propdlg.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_radbt.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_radbx.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_scrol.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_scwin.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_simplebook.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_sizer.h:
+C:/msys64/mingw32/include/wx-3.2/wx/sizer.h:
+C:/msys64/mingw32/include/wx-3.2/wx/gbsizer.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_slidr.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_spin.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_split.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_srchctrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_statbar.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stbox.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stbmp.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_sttxt.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_stlin.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_text.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_tglbtn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_timectrl.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_toolb.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_toolbk.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_tree.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_treebk.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_unkwn.h:
+C:/msys64/mingw32/include/wx-3.2/wx/xrc/xh_wizrd.h:

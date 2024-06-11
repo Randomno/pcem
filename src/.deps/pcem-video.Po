@@ -1,0 +1,111 @@
+pcem-video.o: video.c C:/msys64/mingw32/include/stdlib.h \
+ C:/msys64/mingw32/include/corecrt.h C:/msys64/mingw32/include/_mingw.h \
+ C:/msys64/mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw32/include/corecrt_wstdlib.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h \
+ C:/msys64/mingw32/include/limits.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw32/include/malloc.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h \
+ C:/msys64/mingw32/include/errno.h C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
+ C:/msys64/mingw32/include/_mingw_off_t.h \
+ C:/msys64/mingw32/include/swprintf.inl \
+ C:/msys64/mingw32/include/sec_api/stdio_s.h \
+ C:/msys64/mingw32/include/math.h ibm.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h \
+ C:/msys64/mingw32/include/stdint.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h C:/msys64/mingw32/include/string.h \
+ C:/msys64/mingw32/include/sec_api/string_s.h timer.h cpu.h device.h \
+ mem.h x86.h video.h vid_svga.h io.h rom.h thread.h vid_ati18800.h \
+ vid_ati28800.h vid_ati_mach64.h vid_cga.h vid_cl5429.h vid_compaq_cga.h \
+ vid_ega.h vid_et4000.h vid_et4000w32.h vid_genius.h vid_hercules.h \
+ vid_ht216.h vid_im1024.h vid_incolor.h vid_colorplus.h vid_mda.h \
+ vid_mga.h vid_olivetti_m24.h vid_oti037.h vid_oti067.h vid_paradise.h \
+ vid_pc1512.h vid_pc1640.h vid_pc200.h vid_pcjr.h vid_pgc.h \
+ vid_ps1_svga.h vid_s3.h vid_s3_virge.h vid_sigma.h vid_tandy.h \
+ vid_tandysl.h vid_tgui9440.h vid_tvga.h vid_vga.h vid_wy700.h \
+ vid_t3100e.h vid_t1000.h vid_voodoo_banshee.h
+C:/msys64/mingw32/include/stdlib.h:
+C:/msys64/mingw32/include/corecrt.h:
+C:/msys64/mingw32/include/_mingw.h:
+C:/msys64/mingw32/include/_mingw_mac.h:
+C:/msys64/mingw32/include/_mingw_secapi.h:
+C:/msys64/mingw32/include/vadefs.h:
+C:/msys64/mingw32/include/sdks/_mingw_ddk.h:
+C:/msys64/mingw32/include/corecrt_wstdlib.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h:
+C:/msys64/mingw32/include/limits.h:
+C:/msys64/mingw32/include/crtdefs.h:
+C:/msys64/mingw32/include/sec_api/stdlib_s.h:
+C:/msys64/mingw32/include/malloc.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h:
+C:/msys64/mingw32/include/errno.h:
+C:/msys64/mingw32/include/stdio.h:
+C:/msys64/mingw32/include/corecrt_stdio_config.h:
+C:/msys64/mingw32/include/_mingw_off_t.h:
+C:/msys64/mingw32/include/swprintf.inl:
+C:/msys64/mingw32/include/sec_api/stdio_s.h:
+C:/msys64/mingw32/include/math.h:
+ibm.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h:
+C:/msys64/mingw32/include/stdint.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h:
+C:/msys64/mingw32/include/stddef.h:
+C:/msys64/mingw32/include/string.h:
+C:/msys64/mingw32/include/sec_api/string_s.h:
+timer.h:
+cpu.h:
+device.h:
+mem.h:
+x86.h:
+video.h:
+vid_svga.h:
+io.h:
+rom.h:
+thread.h:
+vid_ati18800.h:
+vid_ati28800.h:
+vid_ati_mach64.h:
+vid_cga.h:
+vid_cl5429.h:
+vid_compaq_cga.h:
+vid_ega.h:
+vid_et4000.h:
+vid_et4000w32.h:
+vid_genius.h:
+vid_hercules.h:
+vid_ht216.h:
+vid_im1024.h:
+vid_incolor.h:
+vid_colorplus.h:
+vid_mda.h:
+vid_mga.h:
+vid_olivetti_m24.h:
+vid_oti037.h:
+vid_oti067.h:
+vid_paradise.h:
+vid_pc1512.h:
+vid_pc1640.h:
+vid_pc200.h:
+vid_pcjr.h:
+vid_pgc.h:
+vid_ps1_svga.h:
+vid_s3.h:
+vid_s3_virge.h:
+vid_sigma.h:
+vid_tandy.h:
+vid_tandysl.h:
+vid_tgui9440.h:
+vid_tvga.h:
+vid_vga.h:
+vid_wy700.h:
+vid_t3100e.h:
+vid_t1000.h:
+vid_voodoo_banshee.h:

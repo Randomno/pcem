@@ -1,0 +1,85 @@
+pcem-wx-glslp-parser.o: wx-glslp-parser.c wx-glslp-parser.h wx-glsl.h \
+ C:/msys64/mingw32/include/stdlib.h C:/msys64/mingw32/include/corecrt.h \
+ C:/msys64/mingw32/include/_mingw.h \
+ C:/msys64/mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw32/include/corecrt_wstdlib.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h \
+ C:/msys64/mingw32/include/limits.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/include/sec_api/stdlib_s.h \
+ C:/msys64/mingw32/include/malloc.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h \
+ C:/msys64/mingw32/include/errno.h C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
+ C:/msys64/mingw32/include/_mingw_off_t.h \
+ C:/msys64/mingw32/include/swprintf.inl \
+ C:/msys64/mingw32/include/sec_api/stdio_s.h \
+ C:/msys64/mingw32/include/string.h \
+ C:/msys64/mingw32/include/sec_api/string_s.h \
+ C:/msys64/mingw32/include/ctype.h wx-utils.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/defs.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/platform.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/compiler.h \
+ C:/msys64/mingw32/lib/wx/include/msw-unicode-3.2/wx/setup.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/libraries.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/gccpriv.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/winver.h \
+ C:/msys64/mingw32/include/w32api.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/chkconf.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/msw/chkconf.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/version.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/cpp.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/dlimpexp.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/types.h \
+ C:/msys64/mingw32/include/sys/types.h \
+ C:/msys64/mingw32/include/wx-3.2/wx/features.h
+wx-glslp-parser.h:
+wx-glsl.h:
+C:/msys64/mingw32/include/stdlib.h:
+C:/msys64/mingw32/include/corecrt.h:
+C:/msys64/mingw32/include/_mingw.h:
+C:/msys64/mingw32/include/_mingw_mac.h:
+C:/msys64/mingw32/include/_mingw_secapi.h:
+C:/msys64/mingw32/include/vadefs.h:
+C:/msys64/mingw32/include/sdks/_mingw_ddk.h:
+C:/msys64/mingw32/include/corecrt_wstdlib.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/limits.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/syslimits.h:
+C:/msys64/mingw32/include/limits.h:
+C:/msys64/mingw32/include/crtdefs.h:
+C:/msys64/mingw32/include/sec_api/stdlib_s.h:
+C:/msys64/mingw32/include/malloc.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/mm_malloc.h:
+C:/msys64/mingw32/include/errno.h:
+C:/msys64/mingw32/include/stdio.h:
+C:/msys64/mingw32/include/corecrt_stdio_config.h:
+C:/msys64/mingw32/include/_mingw_off_t.h:
+C:/msys64/mingw32/include/swprintf.inl:
+C:/msys64/mingw32/include/sec_api/stdio_s.h:
+C:/msys64/mingw32/include/string.h:
+C:/msys64/mingw32/include/sec_api/string_s.h:
+C:/msys64/mingw32/include/ctype.h:
+wx-utils.h:
+C:/msys64/mingw32/include/wx-3.2/wx/defs.h:
+C:/msys64/mingw32/include/wx-3.2/wx/platform.h:
+C:/msys64/mingw32/include/wx-3.2/wx/compiler.h:
+C:/msys64/mingw32/lib/wx/include/msw-unicode-3.2/wx/setup.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/libraries.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/gccpriv.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/winver.h:
+C:/msys64/mingw32/include/w32api.h:
+C:/msys64/mingw32/include/wx-3.2/wx/chkconf.h:
+C:/msys64/mingw32/include/wx-3.2/wx/msw/chkconf.h:
+C:/msys64/mingw32/include/wx-3.2/wx/version.h:
+C:/msys64/mingw32/include/wx-3.2/wx/cpp.h:
+C:/msys64/mingw32/include/wx-3.2/wx/dlimpexp.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h:
+C:/msys64/mingw32/include/stddef.h:
+C:/msys64/mingw32/include/wx-3.2/wx/types.h:
+C:/msys64/mingw32/include/sys/types.h:
+C:/msys64/mingw32/include/wx-3.2/wx/features.h:

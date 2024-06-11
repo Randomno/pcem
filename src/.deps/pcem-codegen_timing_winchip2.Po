@@ -1,0 +1,45 @@
+pcem-codegen_timing_winchip2.o: codegen_timing_winchip2.c ibm.h \
+ C:/msys64/mingw32/include/stdio.h \
+ C:/msys64/mingw32/include/corecrt_stdio_config.h \
+ C:/msys64/mingw32/include/corecrt.h C:/msys64/mingw32/include/_mingw.h \
+ C:/msys64/mingw32/include/_mingw_mac.h \
+ C:/msys64/mingw32/include/_mingw_secapi.h \
+ C:/msys64/mingw32/include/vadefs.h \
+ C:/msys64/mingw32/include/sdks/_mingw_ddk.h \
+ C:/msys64/mingw32/include/_mingw_off_t.h \
+ C:/msys64/mingw32/include/swprintf.inl \
+ C:/msys64/mingw32/include/sec_api/stdio_s.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h \
+ C:/msys64/mingw32/include/stdint.h C:/msys64/mingw32/include/crtdefs.h \
+ C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h \
+ C:/msys64/mingw32/include/stddef.h C:/msys64/mingw32/include/string.h \
+ C:/msys64/mingw32/include/sec_api/string_s.h timer.h cpu.h x86.h \
+ x86_ops.h x87.h mem.h codegen.h codegen_ops.h codegen_timing_common.h
+ibm.h:
+C:/msys64/mingw32/include/stdio.h:
+C:/msys64/mingw32/include/corecrt_stdio_config.h:
+C:/msys64/mingw32/include/corecrt.h:
+C:/msys64/mingw32/include/_mingw.h:
+C:/msys64/mingw32/include/_mingw_mac.h:
+C:/msys64/mingw32/include/_mingw_secapi.h:
+C:/msys64/mingw32/include/vadefs.h:
+C:/msys64/mingw32/include/sdks/_mingw_ddk.h:
+C:/msys64/mingw32/include/_mingw_off_t.h:
+C:/msys64/mingw32/include/swprintf.inl:
+C:/msys64/mingw32/include/sec_api/stdio_s.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h:
+C:/msys64/mingw32/include/stdint.h:
+C:/msys64/mingw32/include/crtdefs.h:
+C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h:
+C:/msys64/mingw32/include/stddef.h:
+C:/msys64/mingw32/include/string.h:
+C:/msys64/mingw32/include/sec_api/string_s.h:
+timer.h:
+cpu.h:
+x86.h:
+x86_ops.h:
+x87.h:
+mem.h:
+codegen.h:
+codegen_ops.h:
+codegen_timing_common.h:
