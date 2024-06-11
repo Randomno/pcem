@@ -9,6 +9,10 @@ You can submit patches on our [forum](https://pcem-emulator.co.uk/phpBB3). Befor
 
 :exclamation: Note: <b>NO COPYRIGHTED ROM FILES ARE INCLUDED NOR WILL THEY BE. PLEASE DO NOT ASK FOR THEM.</b>
 
+## Building
+
+See [wiki](wiki/Building).
+
 ## BSD and Linux supplement (v17)
 
 You will need the following libraries (and their dependencies):
