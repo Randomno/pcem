@@ -12,7 +12,7 @@
 # even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.
 
-MAKE=mingw32-make
+
 
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
@@ -85,8 +85,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-build_triplet = i686-w64-mingw32
-host_triplet = i686-w64-mingw32
+build_triplet = x86_64-pc-linux-gnu
+host_triplet = x86_64-pc-linux-gnu
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -199,12 +199,12 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} '/c/Users/User/Documents/GitHub/pcem/missing' aclocal-1.16
+ACLOCAL = ${SHELL} '/mnt/c/Users/User/Documents/GitHub/pcem/missing' aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} '/c/Users/User/Documents/GitHub/pcem/missing' autoconf
-AUTOHEADER = ${SHELL} '/c/Users/User/Documents/GitHub/pcem/missing' autoheader
-AUTOMAKE = ${SHELL} '/c/Users/User/Documents/GitHub/pcem/missing' automake-1.16
+AUTOCONF = ${SHELL} '/mnt/c/Users/User/Documents/GitHub/pcem/missing' autoconf
+AUTOHEADER = ${SHELL} '/mnt/c/Users/User/Documents/GitHub/pcem/missing' autoheader
+AUTOMAKE = ${SHELL} '/mnt/c/Users/User/Documents/GitHub/pcem/missing' automake-1.16
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -215,14 +215,14 @@ CTAGS = ctags
 CXX = g++
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -fcommon
-CYGPATH_W = cygpath -w
-DEFS = -DPACKAGE_NAME=\"PCem\" -DPACKAGE_TARNAME=\"pcem\" -DPACKAGE_VERSION=\"v17+st-2\" -DPACKAGE_STRING=\"PCem\ v17+st-2\" -DPACKAGE_BUGREPORT=\"https://github.com/TASEmulators/pcem/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"pcem\" -DVERSION=\"v17+st-2\" -DHAVE_LIBPTHREAD=1 -DHAVE_LIBOPENGL32=1 -DHAVE_LIBOPENAL=1
+CYGPATH_W = echo
+DEFS = -DPACKAGE_NAME=\"PCem\" -DPACKAGE_TARNAME=\"pcem\" -DPACKAGE_VERSION=\"v17+st-2\" -DPACKAGE_STRING=\"PCem\ v17+st-2\" -DPACKAGE_BUGREPORT=\"https://github.com/TASEmulators/pcem/issues\" -DPACKAGE_URL=\"\" -DPACKAGE=\"pcem\" -DVERSION=\"v17+st-2\" -DHAVE_LIBPTHREAD=1 -DHAVE_LIBGL=1 -DHAVE_LIBOPENAL=1
 DEPDIR = .deps
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 ETAGS = etags
-EXEEXT = .exe
+EXEEXT = 
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
@@ -230,9 +230,9 @@ INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LDFLAGS = 
 LIBOBJS = 
-LIBS = -lopenal -lopengl32 -lpthread  -LC:/msys64/mingw32/lib   -Wl,--no-seh -Wl,--large-address-aware -Wl,--subsystem,windows -mwindows -lwx_mswu_xrc-3.2 -lwx_mswu_html-3.2 -lwx_mswu_qa-3.2 -lwx_mswu_core-3.2 -lwx_baseu_xml-3.2 -lwx_baseu_net-3.2 -lwx_baseu-3.2  -lmingw32 -mwindows -lSDL2main -lSDL2
+LIBS = -lopenal -lGL -lpthread  -L/usr/lib/x86_64-linux-gnu -pthread   -lwx_gtk3u_xrc-3.0 -lwx_gtk3u_html-3.0 -lwx_gtk3u_qa-3.0 -lwx_gtk3u_adv-3.0 -lwx_gtk3u_core-3.0 -lwx_baseu_xml-3.0 -lwx_baseu_net-3.0 -lwx_baseu-3.0  -lSDL2
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} '/c/Users/User/Documents/GitHub/pcem/missing' makeinfo
+MAKEINFO = ${SHELL} '/mnt/c/Users/User/Documents/GitHub/pcem/missing' makeinfo
 MKDIR_P = /usr/bin/mkdir -p
 OBJEXT = o
 PACKAGE = pcem
@@ -243,33 +243,34 @@ PACKAGE_TARNAME = pcem
 PACKAGE_URL = 
 PACKAGE_VERSION = v17+st-2
 PATH_SEPARATOR = :
-PKG_CONFIG = /mingw32/bin/pkg-config
+PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = /mingw32/lib/pkgconfig:/mingw32/share/pkgconfig
-SDL2_CONFIG = /mingw32/bin/pkg-config sdl2
+PKG_CONFIG_PATH = 
+SDL2_CONFIG = pkg-config sdl2
 SDL2_FRAMEWORK = 
-SDL_CFLAGS = -IC:/msys64/mingw32/include/SDL2 -Dmain=SDL_main
-SDL_LIBS = -lmingw32 -mwindows -lSDL2main -lSDL2
-SET_MAKE = MAKE=mingw32-make
-SHELL = /bin/sh
+SDL_CFLAGS = -D_REENTRANT -I/usr/include/SDL2
+SDL_LIBS = -lSDL2
+SET_MAKE = 
+SHELL = /bin/bash
 STRIP = 
 VERSION = v17+st-2
-WX_CFLAGS = -IC:/msys64/mingw32/lib/wx/include/msw-unicode-3.2 -IC:/msys64/mingw32/include/wx-3.2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMSW__ -mthreads
-WX_CFLAGS_ONLY = -mthreads
-WX_CONFIG_PATH = /mingw32/bin/wx-config
-WX_CPPFLAGS = -IC:/msys64/mingw32/lib/wx/include/msw-unicode-3.2 -IC:/msys64/mingw32/include/wx-3.2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMSW__
-WX_CXXFLAGS = -IC:/msys64/mingw32/lib/wx/include/msw-unicode-3.2 -IC:/msys64/mingw32/include/wx-3.2 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXMSW__ -mthreads
+WX_CFLAGS = -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__ -pthread
+WX_CFLAGS_ONLY = -pthread
+WX_CONFIG_PATH = /usr/bin/wx-config
+WX_CPPFLAGS = -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__
+WX_CXXFLAGS = -I/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.0 -I/usr/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__ -pthread
 WX_CXXFLAGS_ONLY = 
-WX_LIBS = -LC:/msys64/mingw32/lib   -Wl,--no-seh -Wl,--large-address-aware -Wl,--subsystem,windows -mwindows -lwx_mswu_xrc-3.2 -lwx_mswu_html-3.2 -lwx_mswu_qa-3.2 -lwx_mswu_core-3.2 -lwx_baseu_xml-3.2 -lwx_baseu_net-3.2 -lwx_baseu-3.2 
-WX_RESCOMP = windres --include-dir C:/msys64/mingw32/include/wx-3.2 --define __WIN32__ --define __GNUWIN32__ 
-WX_VERSION = 3.2.5
+WX_LIBS = -L/usr/lib/x86_64-linux-gnu -pthread   -lwx_gtk3u_xrc-3.0 -lwx_gtk3u_html-3.0 -lwx_gtk3u_qa-3.0 -lwx_gtk3u_adv-3.0 -lwx_gtk3u_core-3.0 -lwx_baseu_xml-3.0 -lwx_baseu_net-3.0 -lwx_baseu-3.0 
+WX_LIBS_STATIC = 
+WX_RESCOMP = 
+WX_VERSION = 3.0.5
 WX_VERSION_MAJOR = 3
 WX_VERSION_MICRO = 5
-WX_VERSION_MINOR = 2
-abs_builddir = /c/Users/User/Documents/GitHub/pcem
-abs_srcdir = /c/Users/User/Documents/GitHub/pcem
-abs_top_builddir = /c/Users/User/Documents/GitHub/pcem
-abs_top_srcdir = /c/Users/User/Documents/GitHub/pcem
+WX_VERSION_MINOR = 0
+abs_builddir = /mnt/c/Users/User/Documents/GitHub/pcem
+abs_srcdir = /mnt/c/Users/User/Documents/GitHub/pcem
+abs_top_builddir = /mnt/c/Users/User/Documents/GitHub/pcem
+abs_top_srcdir = /mnt/c/Users/User/Documents/GitHub/pcem
 ac_ct_CC = gcc
 ac_ct_CXX = g++
 am__include = include
@@ -278,26 +279,26 @@ am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build = i686-w64-mingw32
-build_alias = i686-w64-mingw32
-build_cpu = i686
-build_os = mingw32
-build_vendor = w64
+build = x86_64-pc-linux-gnu
+build_alias = 
+build_cpu = x86_64
+build_os = linux-gnu
+build_vendor = pc
 builddir = .
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = i686-w64-mingw32
+host = x86_64-pc-linux-gnu
 host_alias = 
-host_cpu = i686
-host_os = mingw32
-host_vendor = w64
+host_cpu = x86_64
+host_os = linux-gnu
+host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /c/Users/User/Documents/GitHub/pcem/install-sh
+install_sh = ${SHELL} /mnt/c/Users/User/Documents/GitHub/pcem/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -306,7 +307,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /mingw32
+prefix = /usr/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run

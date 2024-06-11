@@ -1,24 +1,37 @@
-pcem-wx-sdl2-midi.o: wx-sdl2-midi.c C:/msys64/mingw32/include/inttypes.h \
- C:/msys64/mingw32/include/crtdefs.h C:/msys64/mingw32/include/corecrt.h \
- C:/msys64/mingw32/include/_mingw.h \
- C:/msys64/mingw32/include/_mingw_mac.h \
- C:/msys64/mingw32/include/_mingw_secapi.h \
- C:/msys64/mingw32/include/vadefs.h \
- C:/msys64/mingw32/include/sdks/_mingw_ddk.h \
- C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h \
- C:/msys64/mingw32/include/stdint.h \
- C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h \
- C:/msys64/mingw32/include/stddef.h plat-midi.h
-C:/msys64/mingw32/include/inttypes.h:
-C:/msys64/mingw32/include/crtdefs.h:
-C:/msys64/mingw32/include/corecrt.h:
-C:/msys64/mingw32/include/_mingw.h:
-C:/msys64/mingw32/include/_mingw_mac.h:
-C:/msys64/mingw32/include/_mingw_secapi.h:
-C:/msys64/mingw32/include/vadefs.h:
-C:/msys64/mingw32/include/sdks/_mingw_ddk.h:
-C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stdint.h:
-C:/msys64/mingw32/include/stdint.h:
-C:/msys64/mingw32/lib/gcc/i686-w64-mingw32/14.1.0/include/stddef.h:
-C:/msys64/mingw32/include/stddef.h:
+pcem-wx-sdl2-midi.o: wx-sdl2-midi.c /usr/include/stdc-predef.h \
+ /usr/include/inttypes.h /usr/include/features.h \
+ /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h plat-midi.h
+/usr/include/stdc-predef.h:
+/usr/include/inttypes.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 plat-midi.h:

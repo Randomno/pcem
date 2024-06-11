@@ -1,4 +1,5 @@
-resid-fp/pcem-wave8580_PST.o: resid-fp/wave8580_PST.cc resid-fp/wave.h \
- resid-fp/siddefs-fp.h
+resid-fp/pcem-wave8580_PST.o: resid-fp/wave8580_PST.cc \
+ /usr/include/stdc-predef.h resid-fp/wave.h resid-fp/siddefs-fp.h
+/usr/include/stdc-predef.h:
 resid-fp/wave.h:
 resid-fp/siddefs-fp.h:

@@ -632,7 +632,6 @@ WX_VERSION_MINOR
 WX_VERSION_MAJOR
 WX_RESCOMP
 WX_VERSION
-WX_LIBS_STATIC
 WX_LIBS
 WX_CXXFLAGS_ONLY
 WX_CFLAGS_ONLY
@@ -2029,9 +2028,7 @@ struct stat;
 /* Most of the following tests are stolen from RCS 5.7 src/conf.sh.  */
 struct buf { int x; };
 struct buf * (*rcsopen) (struct buf *, struct stat *, int);
-static char *e (p, i)
-     char **p;
-     int i;
+static char *e (char **p, int i)
 {
   return p[i];
 }
@@ -2082,6 +2079,7 @@ extern int puts (const char *);
 extern int printf (const char *, ...);
 extern int dprintf (int, const char *, ...);
 extern void *malloc (size_t);
+extern void free (void *);
 
 // Check varargs macros.  These examples are taken from C99 6.10.3.5.
 // dprintf is used instead of fprintf to avoid needing to declare
@@ -5583,24 +5581,24 @@ else
         _pkg_short_errors_supported=no
 fi
         if test $_pkg_short_errors_supported = yes; then
-	        SDL_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "sdl2 >= $min_sdl_version" 2>&1`
+                SDL_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors --cflags --libs "sdl2 >= $min_sdl_version" 2>&1`
         else
-	        SDL_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "sdl2 >= $min_sdl_version" 2>&1`
+                SDL_PKG_ERRORS=`$PKG_CONFIG --print-errors --cflags --libs "sdl2 >= $min_sdl_version" 2>&1`
         fi
-	# Put the nasty error message in config.log where it belongs
-	echo "$SDL_PKG_ERRORS" >&5
+        # Put the nasty error message in config.log where it belongs
+        echo "$SDL_PKG_ERRORS" >&5
 
-	sdl_pc=no
+        sdl_pc=no
 elif test $pkg_failed = untried; then
         { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
-	sdl_pc=no
+        sdl_pc=no
 else
-	SDL_CFLAGS=$pkg_cv_SDL_CFLAGS
-	SDL_LIBS=$pkg_cv_SDL_LIBS
+        SDL_CFLAGS=$pkg_cv_SDL_CFLAGS
+        SDL_LIBS=$pkg_cv_SDL_LIBS
         { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 printf "%s\n" "yes" >&6; }
-	sdl_pc=yes
+        sdl_pc=yes
 fi
   else
     sdl_pc=no
@@ -5620,7 +5618,7 @@ fi
 
   if test "x$sdl_pc" = xyes ; then
     no_sdl=""
-    SDL2_CONFIG="pkg-config sdl2"
+    SDL2_CONFIG="$PKG_CONFIG sdl2"
   else
     as_save_PATH="$PATH"
     if test "x$prefix" != xNONE && test "$cross_compiling" != yes; then
@@ -5682,8 +5680,8 @@ printf %s "checking for SDL2.framework... " >&6; }
         sdl_framework=$SDL2_FRAMEWORK
       else
         for d in / ~/ /System/; do
-          if test -d "$dLibrary/Frameworks/SDL2.framework"; then
-            sdl_framework="$dLibrary/Frameworks/SDL2.framework"
+          if test -d "${d}Library/Frameworks/SDL2.framework"; then
+            sdl_framework="${d}Library/Frameworks/SDL2.framework"
           fi
         done
       fi
@@ -6026,18 +6024,32 @@ printf %s "checking for wxWidgets version >= $min_wx_version ()... " >&6; }
     if test -n "$wx_ver_ok"; then
       { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: yes (version $WX_VERSION)" >&5
 printf "%s\n" "yes (version $WX_VERSION)" >&6; }
-      WX_LIBS=`$WX_CONFIG_WITH_ARGS --libs `
 
-                              { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for wxWidgets static library" >&5
-printf %s "checking for wxWidgets static library... " >&6; }
-      WX_LIBS_STATIC=`$WX_CONFIG_WITH_ARGS --static --libs  2>/dev/null`
-      if test "x$WX_LIBS_STATIC" = "x"; then
-        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
-printf "%s\n" "no" >&6; }
+      wx_optional_libs=""
+
+    wx_ver_ok=""
+    if test "x$WX_VERSION" != x ; then
+      if test $wx_config_major_version -gt 2; then
+        wx_ver_ok=yes
       else
-        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: yes" >&5
-printf "%s\n" "yes" >&6; }
+        if test $wx_config_major_version -eq 2; then
+           if test $wx_config_minor_version -gt 9; then
+              wx_ver_ok=yes
+           else
+              if test $wx_config_minor_version -eq 9; then
+                 if test $wx_config_micro_version -ge 0; then
+                    wx_ver_ok=yes
+                 fi
+              fi
+           fi
+        fi
       fi
+    fi
+
+      if test -n "$wx_ver_ok" -a -n ""; then
+        wx_optional_libs="--optional-libs "
+      fi
+      WX_LIBS=`$WX_CONFIG_WITH_ARGS --libs  $wx_optional_libs`
 
             wx_has_cppflags=""
       if test $wx_config_major_version -gt 2; then
@@ -6104,7 +6116,6 @@ printf "%s\n" "no (version $WX_VERSION is not new enough)" >&6; }
        WX_CPPFLAGS=""
        WX_CXXFLAGS=""
        WX_LIBS=""
-       WX_LIBS_STATIC=""
        WX_RESCOMP=""
 
        if test ! -z ""; then
@@ -6140,13 +6151,11 @@ printf "%s\n" "no (version $WX_VERSION is not new enough)" >&6; }
     WX_CPPFLAGS=""
     WX_CXXFLAGS=""
     WX_LIBS=""
-    WX_LIBS_STATIC=""
     WX_RESCOMP=""
 
     :
 
   fi
-
 
 
 
@@ -6191,8 +6200,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char snd_pcm_open ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char snd_pcm_open (void);
 int
 main (void)
 {
@@ -6239,8 +6254,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char pthread_create ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char pthread_create (void);
 int
 main (void)
 {
@@ -6339,8 +6360,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char alGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char alGetError (void);
 int
 main (void)
 {
@@ -6391,8 +6418,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char glGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char glGetError (void);
 int
 main (void)
 {
@@ -6438,8 +6471,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char alGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char alGetError (void);
 int
 main (void)
 {
@@ -6491,8 +6530,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char glGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char glGetError (void);
 int
 main (void)
 {
@@ -6538,8 +6583,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char alGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char alGetError (void);
 int
 main (void)
 {
@@ -6588,8 +6639,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char glGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char glGetError (void);
 int
 main (void)
 {
@@ -6635,8 +6692,14 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 
 /* Override any GCC internal prototype to avoid an error.
    Use char because int might match the return type of a GCC
-   builtin and then its argument prototype would still apply.  */
-char alGetError ();
+   builtin and then its argument prototype would still apply.
+   The 'extern "C"' is for builds by C++ compilers;
+   although this is not generally supported in C code supporting it here
+   has little cost and some practical benefit (sr 110532).  */
+#ifdef __cplusplus
+extern "C"
+#endif
+char alGetError (void);
 int
 main (void)
 {
